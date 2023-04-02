@@ -1,0 +1,246 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+
+    color: black;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior:initial;
+}
+
+h1{
+    animation: animate__lightSpeedInLeft;
+    animation-duration: 2s; 
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    display: flex;
+list-style: none;
+padding:  10px;
+}
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+svg {
+    padding: 5px 20px 0px 20px;
+}
+.head{
+    display: flex;
+justify-content: space-between;
+background-color: rgba(235, 226, 226, 0.363);
+margin-top: 0%;
+padding-top: 0%;
+}
+.A{
+    font-size: 12px;
+    padding: 0px 3px 0px 3px;
+    padding-top: 0%;
+}
+.text1{
+    padding-top: 0%;
+}
+/* /////navbar done */
+.container1{
+    text-align: center;
+margin: 5% 21%;
+
+}
+.header{
+    font-size: 6rem;
+    padding-bottom:30px ;   
+}
+p{
+    color: grey;
+    padding: 15px;
+}
+button{
+    border-radius: 20px;
+    padding: 7px 15px;
+    background-color: black;
+color: white;
+margin: 1rem;
+}
+section{
+    margin: 0 5%;
+}
+.content{
+display: flex;
+ 
+    
+}
+.img1{
+background-image: url(./images/resized.jpg);
+width: fit-content;
+padding: 40% 13% 1% 8%;
+color: white;
+margin-right: 5%;
+
+}
+
+.img2{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_614,c_limit/7ffdf7b4-000c-41d3-bab5-76a8a2d35e2f/nike-just-do-it.png);
+    width: fit-content;
+    padding: 40% 15% 0% 6%;
+    color: white;
+
+}
+.feath1{
+    margin: 1rem 0;
+    
+}
+
+/* //landingpage */
+
+/* these are two images of shop new images */
+.img4{
+    width: 300px;
+    height: 309px;
+}
+
+
+
+/* trending section start */
+
+/*landing page end*/
+/* 
+*/
+/**/
+.trending1{
+background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_700,c_limit/eac3b5ce-8580-4ff9-985a-9d6ecf6ed07e/nike-just-do-it.png );
+width: 45%;
+padding: 7% 13% 40% 2%;
+
+
+}
+
+.trending2{
+    background-image: url( https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_700,c_limit/7e81a4e9-5bac-453f-8d80-1f933bd1afcd/nike-just-do-it.png );
+width: 55%;
+
+padding: 7% 13% 40% 2%;
+margin-left:5% ;
+
+}
+
+
+.trending{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+.white{
+    color: white;
+}
+.button{
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.dontmiss{
+    background-image: url(https://images.unsplash.com/photo-1543087903-1ac2ec7aa8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=898&q=80);
+text-align: left;
+    padding: 10% 7% 10% 70%;
+}
+
+.large{
+    font-size: 3rem;
+}
+
+/* //END DONT MISS */
+/* START MORENIKE */
+
+
+.men{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_384,c_limit/54238927-c5aa-46a3-abff-25162b3b1fd7/nike-just-do-it.png );
+padding: 30% 10% 1% 10%;
+
+}
+.women{
+background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_384,c_limit/e64cc521-c652-49bd-bf62-f04cf9cb6b60/nike-just-do-it.png);
+
+padding: 30% 10% 1% 10%;
+}
+.kids{
+    background-image: url(https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/h_384,c_limit/aa8d60e4-d556-4022-9f83-9058601c20a4/nike-just-do-it.png);
+    
+    padding: 30% 10% 1% 10%;
+}
+.content1{
+    display: flex;
+    justify-content: space-between;
+}
+.nike{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* more nike section end */
+/* footer start */
+footer ul{
+ 
+    display: block;
+
+}
+.footer-white{
+    display: flex;
+    justify-content: space-around;
+    margin: 10% 5% ;
+}
+
+footer ul li {
+    margin-top: 10px;
+    color: grey;
+}
+.footer-black{
+    display: flex;
+    justify-content: space-around;
+   
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
+
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    margin: 8% 5% ;
+    font-size: 13px;
+}
+li{
+ color: grey;   
+ 
+}
+.store h4{
+ 
+    margin-right: 0%;
+  
+    text-align: left;
+    padding: 0 15px 15px 15px;
+}
+h4{
+    color: white;
+}
+.svg{
+    margin: 8% 5% ;
+}
